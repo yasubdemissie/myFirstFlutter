@@ -16,14 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        leading: const Icon(Icons.menu),
-        title: const Text('HomeScreen'),
-        actions: const [
-          Icon(Icons.search),
-        ],
-      ),
+
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
